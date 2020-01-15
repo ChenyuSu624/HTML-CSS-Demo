@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- https://chenyusu624.github.io/HTML-CSS-Demo/ -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <a href="#" class="float">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <div class="navbar">
+      <a class="active" href="#top">Home</a>
+      <a href="#intro">Intro</a>
+      <a href="#payment">Payment</a>
+      <a href="#timeline">TimeLine</a>
+    </div>
+    <br>
+    <div class="intro-box" id = "intro">
+      <div class="intro-text">
+        <p class="header"><h2><b>Mustang</b></h2></p>
+        <p class="body">The Mustang created the "pony car" class of American cars, 
+        distinguished as affordable sporty coupes with long hoods and short rear decks, 
+        and gave rise to competitors such as the Chevrolet Camaro, Pontiac Firebird, AMC Javelin, 
+        Chrysler's revamped Plymouth Barracuda, and the second generation Dodge Challenger. 
+        The Mustang is also credited for inspiring the designs of coupés such as the Toyota Celica and Ford Capri, 
+        which were imported to the United States.</p>
+      </div>
+      <img class="intro-img" src="./img/gt500.jpg"  alt="car image">
+    </div>
+    <br>
+    <div class="payment-box" id = "payment">
+      <form>
+        <h1>Make Payment</h1>
+        <hr>
+        <div class="form-row">
+          <div class="inputbox">
+            <i class="fas fa-user-tie" style="font-size:14px;color:black;"></i>
+            <label>First Name: </label><br>
+            <input type="text" name="First Name">
+          </div>
+          <div class="inputbox">
+            <i class="fas fa-user-tie" style="font-size:14px;color:black;"></i>
+            <label>Last Name: </label><br>
+            <input type="text" name="Last Name">
+          </div>
+          <div class="inputbox">
+            <i class="far fa-address-card" style="font-size:14px;color:black;"></i>
+            <label>DL #: </label><br>
+            <input type="text" name="DL Num">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="inputbox">
+            <i class="far fa-address-book" style="font-size:14px;color:black;"></i>
+            <label>Email: </label><br>
+            <input type="text" name="Email">
+          </div>
+          <div class="inputbox">
+            <i class="far fa-address-book" style="font-size:14px;color:black;"></i>
+            <label>Phone: </label><br>
+            <input type="text" name="Phone Num">
+          </div>
+          <div class="inputbox">
+            <i class="far fa-address-card" style="font-size:14px;color:black;"></i>
+            <label>SSN: </label><br>
+            <input type="text" name="SSN">
+          </div>
+        </div>
+        <br><hr>
+        <div class="form-row">
+          <div class="inputbox">
+            <i class="far fa-credit-card" style="font-size:14px;color:black;"></i>
+            <label>Select Card: </label>
+            <a href="" value="visa" class="fab fa-cc-visa" ></a>
+            <a href="" value="amex" class="fab fa-cc-amex" ></a>
+            <a href="" value="apple" class="fab fa-cc-apple-pay" ></a>
+            <a href="" value="discover" class="fab fa-cc-discover"></a>
+            <a href="" value="jcb" class="fab fa-cc-jcb" ></a>
+          </div>
+          <div class="inputbox">
+            <label>Card #: </label>
+            <input type="text" name="Card Num">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="inputbox-card">
+            <label>Card Name: </label>
+            <input type="text" name="Card Name">
+          </div>
+          <div class="inputbox-card">
+            <label>Exp Date: </label>
+            <input type="text" value="MM/DD/YY" name="Exp Date">
+          </div>
+          <div class="inputbox-card">
+            <label>CVV: </label>
+            <input type="text" name="CVV Num">
+          </div>
+        </div>
+        <br><hr>
+        <div class="form-row">
+          <div class="inputbox">
+            <i class="fas fa-road" style="font-size:14px;color:black;"></i>
+            <label>Street Address #1: </label><br>
+            <input type="text" name="Address#1">
+          </div>
+          <div class="inputbox">
+            <i class="fas fa-road" style="font-size:14px;color:black;"></i>
+            <label>Street Address #2: </label><br>
+            <input type="text" name="Address#2">
+          </div>
+          </div>
+        </divcla>
+        <div class="form-row">
+          <div class="inputbox">
+            <i class="far fa-building" style="font-size:14px;color:black;"></i>
+            <label>City: </label><br>
+            <input type="text" name="City">
+          </div>
+          <div class="inputbox">
+            <i class="fas fa-map-marked-alt" style="font-size:14px;color:black;"></i>
+            <label>State: </label><br>
+            <input type="text" name="State">
+          </div>
+          <div class="inputbox">
+            <i class="fas fa-map-pin" style="font-size:14px;color:black;"></i>
+            <label>Zip Code: </label><br>
+            <input type="text" name="Zip">
+          </div>
+        </div>
+        <br><br>
+        <button type="submit" ><b>Purchase Now</b></button>
+      </form>
+      <br>
+    </div>
+    <div class="finance-box">
+      <strong>Finance with Ford</strong>
+      <hr>
+      <table style="width:100%">
+        <tr>
+          <td>Vehicle Price</td>
+          <td style="text-align:right">$72,900</td>
+        </tr>
+        <tr>
+          <td >Shipping</td>
+          <td style="text-align:right">$1,000</td>
+        </tr>
+      </table>
+      <hr>
+      <table style="width:100%">
+        <tr>
+          <td>Total Price (taxes and fees*)</td>
+          <td style="text-align:right">$79,900</td>
+        </tr>
+      </table>
+      <hr>
+      <table style="width:100%">
+        <tr>
+          <td>Trade In</td>
+          <td style="text-align:right">$--,---</td>
+        </tr>
+        <tr>
+          <td>Down Payment</td>
+          <td style="text-align:right">$--,---</td>
+        </tr>
+      </table>
+      <hr>
+      <table style="width:100%">
+        <tr>
+          <td>Amount Financed</td>
+          <td style="text-align:right">$79,900</td>
+        </tr>
+        <tr>
+          <td>Monthly Payment</td>
+          <td style="text-align:right">$1,020</td>
+        </tr>
+      </table>
+    </div>
+    <div class ="h-title" id="timeline">
+      <h1>History</h1>
+    </div>
+      <div class="timeline" >
+        <div class="container left">
+          <div class="content">
+            <h2>First Generation (1964-1973)</h2>
+            <p>The first generation includes the original model along with varieties such as the classic Shelby Mustang lineup, 
+              Boss Mustangs, K-Code Mustangs, and the “Bullitt” Mustang GT-390 Fastback. The original Mustang inspired an entire class of compact, 
+              sporty vehicles known as "pony cars."</p>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content">
+            <h2>Second Generation (1974-1978)</h2>
+            <p>The second generation of Mustang is often called the “Pintostang” generation because the cars were based on the Ford Pinto platform. 
+              Smaller and more fuel efficient than their predecessors (they were introduced a few months before the beginning of the 1973 oil crisis), 
+              this generation featured the likes of the Mustang II, the Mustang Cobra II, and the King Cobra Mustang. This was also the first generation of Mustangs to feature a four-cylinder engine.</p>
+          </div>
+        </div>
+          <div class="container left">
+          <div class="content">
+            <h2>Third Generation (1979-1993)</h2>
+            <p>This generation of Mustang lasted longer than other iteration of the car. Nicknamed the "Fox Body” Mustang, 
+              this car was based on the Fox platform used in the Ford Fairmont and the Mercury Zephyr. The car was light, 
+              European in design, and loaded with a powerful 5.0-liter V-8 engine. 
+              A high-performance model known as the Ford SVT Mustang Cobra was introduced in 1993.</p>
+          </div>
+        </div>
+          <div class="container right">
+          <div class="content">
+            <h2>Fourth Generation (1994-2004)</h2>
+            <p>The fourth generation Mustang was larger than the previous generation and was engineered to be stiffer in design. 
+              In 1996, the popular 5.0-liter engine was replaced with a 4.6-liter modular V-8 engine. 
+              This generation spawned the “New Edge” line of Mustangs in 1999. Although the cars looked different from other Mustangs, 
+              they were still based on the SN-95 platform.</p>
+          </div>
+        </div>
+        <div class="container left">
+          <div class="content">
+            <h2>Fifth Generation (2005-2014)</h2>
+            <p>This generation also saw the return of the Shelby Mustang when Carroll Shelby brought back the GT500 Mustang and the GT500KR. 
+              In 2009, Ford introduced a more powerful 2010 Ford Mustang. Although the car had numerous changes inside and out, 
+              it was still based on the D2C platform. In 2011, Ford brought the 5.0-liter engine back in the GT model and produced a 3.7-liter Duratec 24-valve V-6 powered Mustang.</p>
+          </div>
+        </div>
+          <div class="container right">
+          <div class="content">
+            <h2>Sixth Generation (2015-Present)</h2>
+            <p>On December 5, 2013, Ford officially revealed the 2015 Ford Mustang. The car, which features a completely revamped design, was inspired by 50 years of Ford Mustang heritage. 
+              The new Mustang features an independent rear suspension, push start technology, and a turbocharged 2.3-liter EcoBoost four-cylinder engine option.</p>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
